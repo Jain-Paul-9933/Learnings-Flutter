@@ -55,5 +55,26 @@ void main() {
  
   // print(name.length);
 
+  // Control Statements
 
+  // int num1 =-10;
+
+  // if(num1<0){
+  //   print("Number is negative");
+  // }else if (num1==0){
+  //   print("Number is Zero");
+  // }
+  // else{
+  //   print("Number is positive");
+  // }
+
+  // Looping Statements
+  
+  // for(var i=0;i<10;i++){
+  // print(i);
+  // }
+
+  // List
+
+  
 }
