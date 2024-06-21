@@ -21,16 +21,39 @@ void main() {
 
   //Input & Output
   // ----------------
+  // single input
 
   // var nameHolder = stdin.readLineSync();
   // print('Hello $nameHolder');
 
-  print("Enter two numbers");
-  var input1 = stdin.readLineSync();
-  var input2 = stdin.readLineSync();
+  // multiple input
 
-  var number1 = int.parse(input1!);
-  var number2 = int.parse(input2!);
+  // print("Enter two numbers");
+  // var input1 = stdin.readLineSync();
+  // var input2 = stdin.readLineSync();
 
-  print("Sum of $input1 and $input2 = ${number1 + number2}");
+  // var number1 = int.parse(input1!);
+  // var number2 = int.parse(input2!);
+
+  // print("Sum of $input1 and $input2 = ${number1 + number2}");
+
+  // Data types
+
+  // numerical
+  // int a = 10;
+  // double b = 20;
+
+  // num num1 = 20.0;  // we can declare both int and double type of variable using num.
+  // num num2 = 10;
+
+  // // string
+  // String name = 'Jain Paul'; // '' used for single line strings.
+  // String intro = "I'm Jain Paul" ;// "" used when ' is to be used in the single line string.
+
+  // String address = ''' White house 
+  //                      USA '''  ;// ''' used when multiline string is needed.
+ 
+  // print(name.length);
+
+
 }
