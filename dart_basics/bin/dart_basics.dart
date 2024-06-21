@@ -50,9 +50,9 @@ void main() {
   // String name = 'Jain Paul'; // '' used for single line strings.
   // String intro = "I'm Jain Paul" ;// "" used when ' is to be used in the single line string.
 
-  // String address = ''' White house 
+  // String address = ''' White house
   //                      USA '''  ;// ''' used when multiline string is needed.
- 
+
   // print(name.length);
 
   // Control Statements
@@ -69,12 +69,54 @@ void main() {
   // }
 
   // Looping Statements
-  
+
   // for(var i=0;i<10;i++){
   // print(i);
   // }
 
   // List
 
-  
+  // List<int> numberList = [1,2,3,4];
+
+  // List<String> stringList = ["a","b","c"];
+
+  //Array
+
+  // var array = [10, "Ten", 10.0];
+
+  // var numberList = [1, 2, 3, 4];
+
+  // var numberList2 = [5, 6, 7];
+  // print(numberList.length);
+
+  // print(numberList.contains(23));
+
+  // numberList.add(5);
+
+  // numberList.removeAt(0);
+
+  // numberList.addAll(numberList2);
+  // print(numberList);
+
+  // print(numberList.join(" * "));
+
+  // List<List<int>> list = [
+  //   [1, 2, 3],
+  //   [4, 5, 6]
+  // ];
+
+  // print(list[0][1]);
+
+  // List<int> numberList = [1, 1, 2, 3, 3, 3, 6, 7, 0, 0];
+  // Set<int> numberSet = {1, 1, 2, 3, 3, 3, 6, 7, 0, 0};
+
+  // print(numberList);
+  // print(numberSet);
+
+  // Map<String, String> maps = {"name": "Jain", "age": "25"};
+
+  // var map = {"name": "Jain", "age": 25};
+
+  // print(map['name']);
+  // print(map['age']);
 }
