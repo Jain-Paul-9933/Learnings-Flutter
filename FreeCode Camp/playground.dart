@@ -1,4 +1,7 @@
 // import 'dart:io';
+class Num {
+  int num = 10;
+}
 
 main() {
   //Hello World
@@ -107,5 +110,96 @@ main() {
   // int? num = null;
   // print(num);
 
-  
+  // Operators
+// // arithmetic operator
+//   int num = 10 + 22;
+//   num = num - 2;
+//   print(num);
+
+//   num = num % 5;
+//   print(num);
+
+// // relational ==,!=,>=,<=
+//   if (num == 0) {
+//     print('Zero');
+//   }
+
+//   num = 100;
+//   num *= 2; //num=num*2;
+
+//   print(num);
+
+//   //unary operator
+//   ++num;
+//   num--;
+//   num += 1;
+//   num -= 1;
+
+//   print(num);
+
+//   //logical &&  and logical ||
+//   if (num > 200 && num < 203) {
+//     print("200 to 203");
+//   }
+
+//   // != Not Equal
+//   if (num != 100) {
+//     print('num is not equal to 100');
+//   }
+
+// Null Aware Operator
+// (?.),(??),(??=)
+
+  // var n =Num();
+
+  // int? number;
+
+  // number = n?.num ?? 0;
+
+  // int? number;
+
+  // print(number ??= 100);
+
+  //Ternary operator
+
+  // int x = 101;
+
+  // var result = x % 2 == 0 ? 'Even' : 'Odd';
+
+  // print(result);
+
+//Type test
+
+  // var x = 100.0;
+
+  // if (x is int) {
+  //   print('integer');
+  // }
+
+// Conditional Statement
+// If Else Statement
+  // int number = 9;
+
+  // if (number % 2 == 0) {
+  //   print('Even');
+  // } else if (number % 3 == 0) {
+  //   print("Odd");
+  // } else {
+  //   print('Confused');
+  // }
+
+// Switch Statement
+
+  int number = 0;
+
+  switch (number) {
+    case 0:
+      print('Even');
+      break;
+    case 1:
+      print('Odd');
+      break;
+    default:
+      print("Confused");
+  }
 }
