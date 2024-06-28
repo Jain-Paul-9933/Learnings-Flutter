@@ -2,8 +2,31 @@
 This repository contains the references, notes and coding's I have done to learn Flutter
 
 # Dart & Flutter
-                                 ![flutter dart logo](https://github.com/Jain-Paul-9933/Learnings-Flutter/assets/137151795/0feba5ab-6791-4f4f-88e2-a83e9ca66f5d)
-               
+![1_v61-QL8UkB1OGUdBpFCQqQ](https://github.com/Jain-Paul-9933/Learnings-Flutter/assets/137151795/64c2d78c-5d01-4a50-9c30-65f33a8ff2e8)
+
+### Dart: ###
+
+*A general-purpose programming language created by Google.
+Optimized for building high-performance applications, especially for mobile and web*.
+
+**Known for its:**
+- Readability: Clear and concise syntax, making it easier to learn.
+- Efficiency: Ahead-of-time compilation allows for native-like performance on mobile platforms.
+- Versatility: Can be used for various purposes beyond mobile development, including web and command-line tools.
+- Cross-platform development: Enables writing a single codebase for apps that run on multiple platforms (Android, iOS, web).
+
+### Flutter: ###
+
+*An open-source UI framework developed by Google.
+Built specifically to create mobile applications.
+Leverages Dart for the programming language.*
+
+**Key features:**
+- Widget-based UI: Everything in Flutter is a widget, from basic buttons to complex layouts. This modular approach simplifies UI creation and promotes reusability.
+- Hot reload: Allows for rapid prototyping and faster development cycles by instantly reflecting code changes in the running app.
+- Customizability: Provides a high degree of control over the look and feel of the app, enabling unique designs.
+
+# Dart (***June 20 - July 20***) #
 
 ## *Weekly Progress: June 20 - June 27*
 
