@@ -204,4 +204,104 @@ main() {
 //   }
 
 // Loops
+// standard for loop
+
+  // for (var i = 1; i <= 10; ++i) {
+  //   print(i);
+  // }
+
+  // for-in loop
+  // var numbers = [1, 2, 3, 4];
+
+  // for (var n in numbers) {
+  //   print(n);
+  // }
+
+  // forEach loop
+
+  // numbers.forEach((n) => print(n));
+
+  // while loop
+  // int num = 5;
+
+  // while (num > 0) {
+  //   print(num);
+  //   num -= 1;
+  // }
+
+  // do-while loop
+
+  // do {
+  //   print(num);
+  //   num -= 1;
+  // } while (num > 0);
+
+  //break and continue
+
+  // for (var i = 0; i < 10; i++) {
+  //   if (i > 5) break;
+  //   print(i);
+  // }
+
+  // for (var i = 0; i < 10; i++) {
+  //   if (i % 2 == 0) continue;
+  //   print("Odd $i");
+  // }
+
+  // Collection [List,Set,Map]
+  //List
+
+  // List<String> names = const ['Jack', 'Jill'];
+
+  // names[1] = 'Mark';
+
+  // var fruits = ['Apple', 'Orange'];
+
+  // print(names[0]);
+  // print(fruits.length);
+
+  // var names2 = [...names];
+
+  // for (var n in names2) {
+  //   print(n);
+  // }
+
+  // Set
+
+  // var halogens = {'fluorine', 'chlorine'};
+
+  // for (var x in halogens) {
+  //   print(x);
+  // }
+
+  // var halogens = <String>{};
+
+  // Set<String> names = {};
+  // print(halogens.runtimeType);
+  // print(names.runtimeType);
+
+  // Map
+
+  var gifts = {
+    //Key :  Value
+    'first': 'partridge',
+    'second': 'turtledoves',
+    'fifth': 'golden rings'
+  };
+
+  var gifts1 = {
+    //Key :  Value
+    1: 'partridge',
+    2: 'turtledoves',
+    5: 'golden rings'
+  };
+
+  print(gifts['fifth']);
+  print(gifts1[2]);
+
+  var gifts2 = Map();
+
+  gifts2['first'] = 'Mango';
+
+  print(gifts2['first']);
 }
