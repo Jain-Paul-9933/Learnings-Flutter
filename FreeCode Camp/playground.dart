@@ -282,26 +282,75 @@ main() {
 
   // Map
 
-  var gifts = {
-    //Key :  Value
-    'first': 'partridge',
-    'second': 'turtledoves',
-    'fifth': 'golden rings'
-  };
+  // var gifts = {
+  //   //Key :  Value
+  //   'first': 'partridge',
+  //   'second': 'turtledoves',
+  //   'fifth': 'golden rings'
+  // };
 
-  var gifts1 = {
-    //Key :  Value
-    1: 'partridge',
-    2: 'turtledoves',
-    5: 'golden rings'
-  };
+  // var gifts1 = {
+  //   //Key :  Value
+  //   1: 'partridge',
+  //   2: 'turtledoves',
+  //   5: 'golden rings'
+  // };
 
-  print(gifts['fifth']);
-  print(gifts1[2]);
+  // print(gifts['fifth']);
+  // print(gifts1[2]);
 
-  var gifts2 = Map();
+  // var gifts2 = Map();
 
-  gifts2['first'] = 'Mango';
+  // gifts2['first'] = 'Mango';
 
-  print(gifts2['first']);
+  // print(gifts2['first']);
+
+  //Functions
+  // showOutput(square(2));
+  // showOutput(square(2.5));
+
+  // Anonyms Function
+
+  // var list = ['apples', 'bananas', 'oranges'];
+
+  // list.forEach((item) {
+  //   print(item);
+  // });
+
+  // Parameters and Arguments in Functions
+// Positional Arguments an parameters
+  // print(sum(2, 2));
+// Named Parameters and arguments
+  // print(sum(num2: 4, num1: 2));
+  // print(sum(num2: 10, 5));
 }
+
+// Functions
+
+// dynamic square(var num) {
+//   return num * num;
+// }
+
+// void showOutput(var msg) {
+//   print(msg);
+// }
+
+// Arrow Function
+
+// dynamic square(var num) => num * num;
+
+// void printF(item) {
+//   print(item);
+// }
+
+// Parameters and Arguments in Functions
+// Positional Arguments an parameters
+
+// dynamic sum(var num1, var num2) => num1 + num2;
+
+// Named Parameters and arguments
+
+// dynamic sum({var num1, var num2}) => num1 + num2;
+
+// dynamic sum(var num1, {var num2}) => num1 + num2;
+
