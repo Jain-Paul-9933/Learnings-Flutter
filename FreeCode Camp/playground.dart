@@ -1,6 +1,40 @@
 // import 'dart:io';
-class Num {
-  int num = 10;
+// class Num {
+//   int num = 10;
+// }
+
+// class Person {
+//   String? name;
+//   int? age;
+
+// constructor
+
+// Person(String name, [int age = 18]) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// (or)
+
+//   Person(this.name, [this.age = 18]);
+
+//   //named constructor
+//   Person.guest() {
+//     name = 'Guest';
+//     age = 50;
+//   }
+
+//   void showOutput() {
+//     print(name);
+//     print(age);
+//   }
+// }
+
+class X {
+  final name;
+  static const int age = 10;
+
+  X(this.name);
 }
 
 main() {
@@ -323,6 +357,23 @@ main() {
 // Named Parameters and arguments
   // print(sum(num2: 4, num1: 2));
   // print(sum(num2: 10, 5));
+
+  //Class and Object
+
+  // Person person1 = Person('Jain Paul', 25);
+  // person1.showOutput();
+
+  // var person2 = Person('Ebin', 27);
+  // person2.showOutput();
+
+  // var person3 = Person.guest();
+  // person3.showOutput();
+
+  var x = X('Jain');
+  print(x.name);
+
+  x.name = 'Paul';
+  print(x.name);
 }
 
 // Functions
@@ -353,4 +404,3 @@ main() {
 // dynamic sum({var num1, var num2}) => num1 + num2;
 
 // dynamic sum(var num1, {var num2}) => num1 + num2;
-
