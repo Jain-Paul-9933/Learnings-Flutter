@@ -1,4 +1,7 @@
 // import 'dart:io';
+
+//Classes
+
 // class Num {
 //   int num = 10;
 // }
@@ -30,11 +33,39 @@
 //   }
 // }
 
-class X {
-  final name;
-  static const int age = 10;
+// class X {
+//   final name;
+//   static const int age = 10;
 
-  X(this.name);
+//   X(this.name);
+// }
+
+//Inheritance
+
+class Vehicle {
+  String model;
+  int year;
+
+  Vehicle(this.model, this.year) {
+    print(this.model);
+    print(this.year);
+  }
+
+  void showOutput() {
+    print(model);
+    print(year);
+  }
+}
+
+class Car extends Vehicle {
+  double price;
+
+  Car(String model, int year, this.price) : super(model, year);
+
+  void showOutput() {
+    super.showOutput();
+    print(this.price);
+  }
 }
 
 main() {
@@ -369,11 +400,15 @@ main() {
   // var person3 = Person.guest();
   // person3.showOutput();
 
-  var x = X('Jain');
-  print(x.name);
+  // var x = X('Jain');
+  // print(x.name);
 
-  x.name = 'Paul';
-  print(x.name);
+  // print(X.age);
+
+  //Inheritance
+
+  // var car1 = Car('BMW', 2014, 350000);
+  // car1.showOutput();
 }
 
 // Functions
