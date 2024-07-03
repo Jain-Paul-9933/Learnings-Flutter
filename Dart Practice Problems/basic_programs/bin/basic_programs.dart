@@ -1,5 +1,9 @@
-import 'package:basic_programs/basic_programs.dart' as basic_programs;
+import 'helloWorld.dart';
+import 'greetings.dart';
+import 'areaAndPerimeter.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${basic_programs.calculate()}!');
+void main() {
+  // HelloWorld();
+  // Greetings();
+  AreaAndPerimeter();
 }
