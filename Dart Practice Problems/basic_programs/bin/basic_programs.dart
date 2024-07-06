@@ -4,6 +4,7 @@ import 'areaAndPerimeter.dart';
 import 'simpleInterest.dart';
 import 'temperatureConverter.dart';
 import 'stringOperations.dart';
+import 'numberGuessGame.dart';
 
 void main() {
   // HelloWorld();
@@ -16,5 +17,6 @@ void main() {
   // stringToUpper();
   // stringToLower();
   // stringStartsWith();
-  stringEndsWith();
+  // stringEndsWith();
+  numberGuessGame();
 }
