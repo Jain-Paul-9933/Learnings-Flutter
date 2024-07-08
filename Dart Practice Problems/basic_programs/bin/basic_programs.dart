@@ -5,6 +5,7 @@ import 'simpleInterest.dart';
 import 'temperatureConverter.dart';
 import 'stringOperations.dart';
 import 'numberGuessGame.dart';
+import 'listOperations.dart';
 
 void main() {
   // HelloWorld();
@@ -18,5 +19,6 @@ void main() {
   // stringToLower();
   // stringStartsWith();
   // stringEndsWith();
-  numberGuessGame();
+  // numberGuessGame();
+  listOperations();
 }
