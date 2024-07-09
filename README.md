@@ -32,6 +32,7 @@ Leverages Dart for the programming language.*
 
 ### ***[Tutorial 1](https://youtu.be/M3ni_jDqY6E?feature=shared): Flutter Tutorial by Brototype Malayalam Community (in Malayalam)***
 
+- Progress so far includes:
 - Completed the installation and setup of Dart and Flutter.
 - Learned key Dart concepts including:
 - Data Types
@@ -54,7 +55,7 @@ This tutorial kick-started my learning and gave me a solid foundation in Dart.
 
 - Progress so far includes:
 - Basic Input and Output
-- Data Types
+ Data Types
 - String Handling
 - Type Conversion
 - Constants
@@ -64,3 +65,32 @@ This tutorial kick-started my learning and gave me a solid foundation in Dart.
 - Started Loops
   
 This tutorial is helping me solidify my Dart basics and ensure I have a thorough understanding.
+
+## *Weekly Progress: June 27 - July 04*
+
+### ***[Tutorial 2](https://youtu.be/Ej_Pcr4uC2Q?feature=shared): Learn Dart in 2 hrs by FreeCodeCamp Community (in English)***
+
+- Progress so far includes:
+- Collections- List,Set,Map
+- Standard Functions
+- Arrow Functions
+- Anonyms Function
+- Positional and Named Parameters
+- Class and Object
+- Inheritance
+- Method Overriding
+- Getters and Setters
+- Exception Handling
+
+This tutorial is helping me solidify my Dart basics and ensure I have a thorough understanding.
+
+### ***Practical Workouts: (Basic Programs)***
+
+- Progress so far includes:
+- Hello Word
+- Greetings
+- Area and Parameter
+- Simple Interest
+- Temperature Converter
+
+These problems were, small experiments done to concrete the basics.
