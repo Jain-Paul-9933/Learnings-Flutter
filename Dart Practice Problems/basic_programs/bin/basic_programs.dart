@@ -8,6 +8,7 @@ import 'numberGuessGame.dart';
 import 'listOperations.dart';
 import 'fizzBuzz.dart';
 import 'primeNumbers.dart';
+import 'palindrome.dart';
 
 void main() {
   // HelloWorld();
@@ -24,5 +25,6 @@ void main() {
   // numberGuessGame();
   // listOperations();
   // fizzBuss();
-  primeNumber();
+  // primeNumber();
+  isPalindrome();
 }
