@@ -9,6 +9,7 @@ import 'listOperations.dart';
 import 'fizzBuzz.dart';
 import 'primeNumbers.dart';
 import 'palindrome.dart';
+import 'simpleCalculator.dart';
 
 void main() {
   // HelloWorld();
@@ -26,5 +27,6 @@ void main() {
   // listOperations();
   // fizzBuss();
   // primeNumber();
-  isPalindrome();
+  // isPalindrome();
+  simpleCalculator();
 }
