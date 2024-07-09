@@ -7,6 +7,8 @@ import 'stringOperations.dart';
 import 'numberGuessGame.dart';
 import 'listOperations.dart';
 import 'fizzBuzz.dart';
+import 'primeNumbers.dart';
+
 void main() {
   // HelloWorld();
   // Greetings();
@@ -22,5 +24,5 @@ void main() {
   // numberGuessGame();
   // listOperations();
   // fizzBuss();
-  
+  primeNumber();
 }
