@@ -6,7 +6,7 @@ import 'temperatureConverter.dart';
 import 'stringOperations.dart';
 import 'numberGuessGame.dart';
 import 'listOperations.dart';
-
+import 'fizzBuzz.dart';
 void main() {
   // HelloWorld();
   // Greetings();
@@ -20,5 +20,7 @@ void main() {
   // stringStartsWith();
   // stringEndsWith();
   // numberGuessGame();
-  listOperations();
+  // listOperations();
+  // fizzBuss();
+  
 }
