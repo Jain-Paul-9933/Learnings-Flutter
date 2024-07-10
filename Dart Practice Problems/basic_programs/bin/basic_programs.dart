@@ -11,6 +11,7 @@ import 'primeNumbers.dart';
 import 'palindrome.dart';
 import 'simpleCalculator.dart';
 import 'studentMarks.dart';
+import 'INR_to_USD_converter.dart';
 
 void main() {
   // HelloWorld();
@@ -30,5 +31,6 @@ void main() {
   // primeNumber();
   // isPalindrome();
   // simpleCalculator();
-  studentMarks();
+  // studentMarks();
+  inrToUSDConverter();
 }
