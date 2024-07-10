@@ -12,6 +12,7 @@ import 'palindrome.dart';
 import 'simpleCalculator.dart';
 import 'studentMarks.dart';
 import 'INR_to_USD_converter.dart';
+import 'bankAccount.dart';
 
 void main() {
   // HelloWorld();
@@ -32,5 +33,6 @@ void main() {
   // isPalindrome();
   // simpleCalculator();
   // studentMarks();
-  inrToUSDConverter();
+  // inrToUSDConverter();
+  bankTransaction();
 }
