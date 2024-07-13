@@ -14,6 +14,7 @@ import 'studentMarks.dart';
 import 'INR_to_USD_converter.dart';
 import 'bankAccount.dart';
 import 'shapes.dart';
+import 'simpleCalculatorClass.dart';
 
 void main() {
   // HelloWorld();
@@ -36,5 +37,6 @@ void main() {
   // studentMarks();
   // inrToUSDConverter();
   // bankTransaction();
-  shape();
+  // shape();
+  simpleCalculatorClass()
 }
