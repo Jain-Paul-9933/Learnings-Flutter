@@ -38,5 +38,5 @@ void main() {
   // inrToUSDConverter();
   // bankTransaction();
   // shape();
-  simpleCalculatorClass()
+  simpleCalculatorClass();
 }
