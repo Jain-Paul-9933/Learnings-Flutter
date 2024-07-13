@@ -40,16 +40,15 @@ class Rectangle extends Shape {
 }
 
 class Square extends Rectangle {
-  Square(double side) : super(side, side); 
+  final double side;
+
+  Square( this.side) : super(side, side);
 
   @override
-  String toString() => "Square with side";
+  String toString() => "Square with side $side";
 }
 
-
-
-
-void shape(){
+void shape() {
   Circle circle = Circle(5);
   Rectangle rectangle = Rectangle(4, 6);
   Square square = Square(3);
