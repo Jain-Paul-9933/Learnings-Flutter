@@ -94,3 +94,29 @@ This tutorial is helping me solidify my Dart basics and ensure I have a thorough
 - Temperature Converter
 
 These problems were, small experiments done to concrete the basics.
+
+## *Weekly Progress: July 04 - July 11*
+
+### ***Practical Workouts: (Basic Programs)***
+
+- Progress so far includes:
+- String Operations
+- Number guessing game
+- List Operations
+
+### ***Practical Workouts: (Intermediate Programs)***
+
+- Progress so far includes:
+- FizzBuzz
+- Prime Number Check
+- Palindrome Check
+- Simple Calculator
+- Student Marks
+- Currency Converter
+
+### ***Practical Workouts: (Advanced Programs)***
+
+- Progress so far includes:
+- Bank Account
+
+These problems were, small experiments done to concrete the basics.
