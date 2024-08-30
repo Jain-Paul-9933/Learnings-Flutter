@@ -120,3 +120,20 @@ These problems were, small experiments done to concrete the basics.
 - Bank Account
 
 These problems were, small experiments done to concrete the basics.
+
+## *Weekly Progress: August 25 - August 30*
+
+### ***Practical Workouts: (Leetcode Programs)***
+
+- Progress so far includes:
+- Two Sum
+- Palindrome Number 
+- Reverse Integer
+- Container With Most Water
+- Longest Substring Without Repeating Characters
+- Valid Parentheses
+- Merge Two Sorted Lists
+
+
+These problems cover a wide range of fundamental concepts in Dart programming.
+
