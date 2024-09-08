@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sample_project_8/screens/splash.dart';
 
+const SAVE_KEY_NAME = 'UserLoggedIn';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,8 +20,8 @@ class MyApp extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.blue, // Button background color
             foregroundColor: Colors.white, // Button text color
-            padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-            textStyle: TextStyle(fontSize: 16),
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+            textStyle: const TextStyle(fontSize: 12),
           ),
         ),
         textButtonTheme: TextButtonThemeData(
@@ -27,8 +29,22 @@ class MyApp extends StatelessWidget {
             foregroundColor: Colors.blue, // Text button color
           ),
         ),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.blue, // AppBar background color
+          foregroundColor: Colors.white, // AppBar text/icon color
+          titleTextStyle: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Colors.white, // Title text color
+          ),
+          elevation: 4, // Shadow under the AppBar
+          centerTitle: true, // Center the title
+          iconTheme: IconThemeData(
+            color: Colors.white, // Icon color
+          ),
+        ),
       ),
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }
